@@ -5,10 +5,10 @@ for i in range(6):
     list_.append(i)
 
 print(list_)
-#list campershen
+# List comprehension
 list_ = [i for i in range(6)] # {i | i <=6}
 print(list_)
-# list campearshen
+# List comprehension
 # " hello"
 list_ = [c for c in "hello"]
 print(list_)
@@ -17,7 +17,7 @@ list_ = []
 for i in range(10):
     list_.append(i ** 2)
 print(list_)
-#list campearshen
+# List comprehension
 list_ = [i ** 2 for i in range(10)]
 print(list_)
 
@@ -43,6 +43,6 @@ l2 = ['x', 'y']
 # ['ax', 'ay', 'bx', 'by']
 
 # 'a' + 'x' ===> 'ax'
-  # list campeaharshen
+  # List comprehension
 list_ = [c1 + c2 for c1 in l1 for c2 in l2]
 print(list_)
